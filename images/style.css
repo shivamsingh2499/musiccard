@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+.attribution { font-size: 11px; text-align: center; 
+margin-top:2rem;}
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    background: hsl(225, 100%, 94%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height: 100vh;
+}
+.card{
+    width:350px;
+    height:500px;
+    border-radius:20px;
+    background: hsl(225, 100%, 98%);
+     display:flex;
+    /* justify-content:center; */
+    /* align-items:center; */
+    flex-direction:column;
+
+}
+.music_card img{ 
+    height:200px;
+    width:350px;
+    border-radius:20px 20px 0 0;
+}
+.heading{
+     margin: 1.2rem 0;
+     text-align: center;
+}
+.text{
+    font-size:1rem;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    margin-bottom:1rem;
+}
+.plan{ 
+    display: flex;
+    justify-content:space-around;
+    padding:0 2rem;
+    margin-bottom:1rem;
+}
+.planImage{ 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.planImage img{
+    width:2.5rem;
+    margin-right:0.8rem;
+}
+.page{
+    font-weight: bold;
+}
+.col{
+    color: hsl(224, 23%, 55%);
+}
+.cha {
+    color:rgba(144,137,221,255);
+    text-decoration: underline;
+     cursor: pointer;
+    
+}
+.cha:hover{
+    color:rgba(144,137,221,255);
+}
+.pay{
+    display: flex;
+    justify-content: center;
+}
+button{
+    height: 39px;
+    width:270px;
+    background:hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: hsl(225, 100%, 94%);
+    margin-bottom:1rem;
+    cursor: pointer;
+}
+button:hover{
+    
+    background: rgba(144,137,221,255);;
+}
+.cancle{
+    display: flex;
+    justify-content: center;
+    color:hsl(224, 23%, 55%);
+    font-size:14px;
+     cursor: pointer;
+}
+.cancle:hover{
+color:black;
+}
